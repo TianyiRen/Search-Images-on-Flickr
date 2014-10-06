@@ -1,0 +1,18 @@
+Name: Tianyi Ren
+UNI: tr2400
+Email: tr2400@columbia.edu
+
+Running application: 
+
+1). Description: 
+	a) Search and view images: Search photos on Flickr by plain text, user name or uploaded time. Users should search by enter at least one query at a time, and click on search button. The interface will return the results, 10 photos a time. 
+	b) View user profile and user photos: Click on the link of "User Profile" and "User Photos" will get to the user's profile page and user’s photo page on Flickr.
+
+2). Implementation
+    	Used Flickr API and twitter bootstrap
+
+3). User Interface Design Decision:
+	This web page aims at providing users an efficient interface to search and view photos on Flickr by indicating the keywords contained in photos, the owner's name or uploaded time. Search boxes clearly show the queries users need to enter for completing a search.
+	Returned photos from Flickr are shown in three columns and are resized so as to look neat and comfortable. If the result has more than 10 photos, a "next" button is appended suggesting to fetch more.
+
+	Twitter bootstrap is used to create a navigation bar (for further development) and  page layout. Also, a background pic and a title “Find and View Images on Flickr” is designed to impressively show the theme of the web page.  
